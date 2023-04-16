@@ -1781,3 +1781,4 @@ venv/Scripts/pip3.exe
 venv/Scripts/python.exe
 venv/Scripts/pythonw.exe
 flaskr/__pycache__/__init__.cpython-311.pyc
+instance/flaskr.sqlite

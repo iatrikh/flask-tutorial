@@ -29,5 +29,8 @@ def create_app(test_config=None):
     @app.route('/hellopage')
     def hello():
         return 'Broken hello page'
+    
+    from . import db
+    db.init_app(app)
 
     return app
